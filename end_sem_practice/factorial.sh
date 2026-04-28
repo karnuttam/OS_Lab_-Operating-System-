@@ -7,7 +7,7 @@ then
 	echo "The factorial of $num is: 1"
 elif [ $num -lt 0 ]
 then
-	echo "Please the positive number."
+	echo "Please enter the positive number."
 else
 	fact=1
 	for (( i=1; i<=num; i++ ))
