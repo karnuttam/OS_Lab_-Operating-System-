@@ -12,7 +12,7 @@ struct Process{
 };
 
 int main(){
-	printf("==============First Come First Serve Algorithm FIFO)========\n");
+	printf("==============Shortest Job First Algorithm (SJF)========\n");
 	int n;
 	printf("Enter the total number of processes: \n");
 	scanf("%d", &n);
